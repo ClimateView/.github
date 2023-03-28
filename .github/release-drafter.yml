@@ -1,0 +1,54 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+categories:
+    - title: '🚀 New'
+      labels:
+          - '✨ Feature'
+          - '💥 Breaking change'
+    - title: '🧹 Updates'
+      labels:
+          - '🧹 Updates'
+          - '🤖 Dependencies'
+          - '⚡️ Performance'
+          - '🔥 Clean up'
+    - title: '🐛 Fixes'
+      labels:
+          - '🐛 Bug'
+          - '🚑 Hotfix'
+          - '🔒️ Security'
+    - title: '📚 Documentation'
+      labels:
+          - '📝 Documentation'
+    - title: '🏗️ Infrastructure'
+      labels:
+          - '🔧 Configuration'  
+          - '🧱 Infrastructure'
+change-template: '- $TITLE (#$NUMBER)'
+change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
+version-resolver:
+    major:
+        labels:
+            - 'major'
+            - '💥 Breaking change'
+    minor:
+        labels:
+            - 'minor'
+            - '✨ Feature'
+    patch:
+        labels:
+            - 'patch'
+            - '📝 Documentation'
+            - '🐛 Bug'
+            - '🤖 Dependencies'
+            - '🧹 Updates'
+            - '🔧 Configuration'
+            - '🧱 Infrastructure'
+            - '⚡️ Performance'
+            - '🔒️ Security'
+            - '🔥 Clean up'
+            - '🚑 Hotfix'
+    default: patch
+template: |
+    $CHANGES
+    **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
+    Contributors: $CONTRIBUTORS
