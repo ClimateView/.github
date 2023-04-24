@@ -2,5 +2,5 @@
 
 ### Checklist:
 - [ ] Tests implemented
-- [ ] Docs upated if applicable
+- [ ] Docs updated if applicable
 - [ ] Depends on another [PR]()
