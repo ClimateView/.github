@@ -5,9 +5,9 @@ categories:
       labels:
           - '✨ Feature'
           - '💥 Breaking change'
-    - title: '🧹 Updates'
+    - title: '🧹 Enhancements'
       labels:
-          - '🧹 Updates'
+          - '🧹 Enhancements'
           - '🤖 Dependencies'
           - '⚡️ Performance'
           - '🔥 Clean up'
@@ -40,7 +40,7 @@ version-resolver:
             - '📝 Documentation'
             - '🐛 Bug'
             - '🤖 Dependencies'
-            - '🧹 Updates'
+            - '🧹 Enhancements'
             - '🔧 Configuration'
             - '🧱 Infrastructure'
             - '⚡️ Performance'
@@ -54,3 +54,4 @@ template: |
     **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
     
     Contributors: $CONTRIBUTORS
+
