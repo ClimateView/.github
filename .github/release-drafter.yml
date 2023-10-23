@@ -25,29 +25,6 @@ categories:
           - '🧱 Infrastructure'
 change-template: '- $TITLE (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
-version-resolver:
-    major:
-        labels:
-            - 'major'
-            - '💥 Breaking change'
-    minor:
-        labels:
-            - 'minor'
-            - '✨ Feature'
-    patch:
-        labels:
-            - 'patch'
-            - '📝 Documentation'
-            - '🐛 Bug'
-            - '🤖 Dependencies'
-            - '🧹 Enhancement'
-            - '🔧 Configuration'
-            - '🧱 Infrastructure'
-            - '⚡️ Performance'
-            - '🔒️ Security'
-            - '🔥 Clean up'
-            - '🚑 Hotfix'
-    default: patch
 template: |
     $CHANGES
     
