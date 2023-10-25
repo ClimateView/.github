@@ -8,7 +8,6 @@ categories:
     - title: '🧹 Enhancements'
       labels:
           - '🧹 Enhancement'
-          - '🤖 Dependencies'
           - '⚡️ Performance'
           - '🔥 Clean up'
     - title: '🐛 Fixes'
@@ -23,6 +22,12 @@ categories:
       labels:
           - '🔧 Configuration'  
           - '🧱 Infrastructure'
+    - title: 'Other changes'
+      collapse-after: 10
+    - title: '⬆️ Dependencies'
+      collapse-after: 3
+      labels: 
+          - '🤖 Dependencies'
 change-template: '- $TITLE (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
 template: |
